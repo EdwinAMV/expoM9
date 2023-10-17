@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo del cuerpo */
+  }
+
+  .content {
+    max-width: 60%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc; /* Borde sólido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 5px 5px 10px #888; /* Sombreado */
+    background-color: #fff; /* Color de fondo del contenido */
+    position: relative; /* Establecer posición relativa para el contenido */
+  }
+
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Estilos para el texto en la esquina derecha inferior */
+  .credit-text {
+    position: absolute;
+    bottom: 10px; /* 10px desde la parte inferior */
+    right: 10px; /* 10px desde la parte derecha */
+    font-size: 12px;
+    color: #888; /* Color del texto */
+  }
